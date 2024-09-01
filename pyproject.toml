@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "belt-market"
+version = "0.1.0"
+description = "Проект магазина по реализации кожанных ремней Компании \"Viktor&Co\""
+authors = ["KirSouL <Sokil-Ki-So@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dependence.dependencies]
+django = "^5.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
